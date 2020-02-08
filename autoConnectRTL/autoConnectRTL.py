@@ -356,7 +356,7 @@ class Writer():
       Module = self.LstModule.LstModule[module_i]
       String = Define.ModuleInst
       String = String.replace('[name]', Module.name)
-      String = String.replace('[instName]', Module.name)
+      String = String.replace('[instName]', Module.InstName)
 
       ParamStr = ''
       PortStr = ''
